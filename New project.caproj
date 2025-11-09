@@ -9,7 +9,9 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>360kodre5h083</unique-id>
     <saved-with-version>23900</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,7 +39,27 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Character" sid="548153078398918">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643661908010928" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character.png">
+                        <collision-poly>
+                            <point x="0.0733945" y="0.0300752" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.899083" y="0.0413534" />
+                            <point x="0.917431" y="0.5" />
+                            <point x="0.752294" y="0.898496" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.348624" y="0.857143" />
+                            <point x="0.0825688" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
