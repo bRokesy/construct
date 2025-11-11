@@ -9,7 +9,10 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>360kodre5h083</unique-id>
     <saved-with-version>23900</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,7 +40,87 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="WallTiled" sid="473963485785974">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png" />
+        </object-type>
+        <object-type name="T_Wall_" sid="239943635094193">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="481748537633478" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_01.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Column" sid="192779963455884">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827165407038294" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Column.png">
+                        <collision-poly>
+                            <point x="0.0117647" y="0.00195313" />
+                            <point x="0.976471" y="0.00390625" />
+                            <point x="0.882353" y="0.5" />
+                            <point x="0.982353" y="0.99707" />
+                            <point x="0.0176471" y="0.99707" />
+                            <point x="0.117647" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="124443141341764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="928698621316782" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background" sid="528397005354513">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428425597985017" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character" sid="584774627078097">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736114699975080" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character.png">
+                        <collision-poly>
+                            <point x="0.0733945" y="0.0300752" />
+                            <point x="0.495413" y="0" />
+                            <point x="0.899083" y="0.0413534" />
+                            <point x="0.917431" y="0.5" />
+                            <point x="0.752294" y="0.898496" />
+                            <point x="0.495413" y="1" />
+                            <point x="0.348624" y="0.857143" />
+                            <point x="0.0825688" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="727422609349976">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514392193046701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503546" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png">
+                        <collision-poly>
+                            <point x="0" y="0.212766" />
+                            <point x="1" y="0.212766" />
+                            <point x="0.999023" y="0.992908" />
+                            <point x="0.000976563" y="0.992908" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
