@@ -12,15 +12,22 @@
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
-    <used-behaviors />
-    <used-effects />
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="divide">Divide</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>1920</width>
+        <height>1080</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -41,9 +48,9 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="WallTiled" sid="473963485785974">
+        <object-type name="Wall_01_Tiled" sid="473963485785974">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_01.png" />
         </object-type>
         <object-type name="T_Wall_" sid="239943635094193">
             <plugin id="Sprite" />
@@ -70,7 +77,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="124443141341764">
+        <object-type name="Shadow" sid="124443141341764">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="928698621316782" speed="5">
@@ -86,10 +93,18 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Character" sid="584774627078097">
+        <object-type name="Character" sid="116699337189263">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="771464208495097">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="789137406995497">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736114699975080" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163481031410407" speed="5">
                     <frame duration="1" hotspotX="0.504587" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character.png">
                         <collision-poly>
                             <point x="0.0733945" y="0.0300752" />
@@ -105,18 +120,42 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="727422609349976">
+        <object-type name="Sprite" sid="632803854658777">
             <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Divide">
+                    <effect id="divide" />
+                </effect-type>
+            </effects>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514392193046701" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503546" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png">
-                        <collision-poly>
-                            <point x="0" y="0.212766" />
-                            <point x="1" y="0.212766" />
-                            <point x="0.999023" y="0.992908" />
-                            <point x="0.000976563" y="0.992908" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399060360045276" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="447908274529721">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_02.png" />
+        </object-type>
+        <object-type name="Tilemap" sid="798119850397561">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="TiledBackground2" sid="402933662274832">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png" />
+        </object-type>
+        <object-type name="CollisionBox" sid="896397343914568">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="129179381306071">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664963776049279" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
