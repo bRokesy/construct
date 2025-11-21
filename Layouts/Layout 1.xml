@@ -46,8 +46,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1013</x>
-                        <y>747</y>
+                        <x>1012</x>
+                        <y>754</y>
                         <z>0</z>
                         <width>2086</width>
                         <height>47</height>
@@ -109,10 +109,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1014.5</x>
-                        <y>487</y>
+                        <y>397</y>
                         <z>0</z>
                         <width>2079</width>
-                        <height>418</height>
+                        <height>238</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -216,7 +216,7 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
+                                <max-speed>500</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
                                 <jump-strength>650</jump-strength>
