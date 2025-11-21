@@ -4,14 +4,47 @@
     <name>Event sheet 1</name>
     <events>
         <event-block sid="189682187576405">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="712296139106228">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="363313294135931" type="System" />
+                <condition id="0" name="On key pressed" sid="759254199039229" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="503105982291861" type="Character">
+                <action id="4" name="Set animation" sid="660990228129782" type="Character">
                     <param id="0" name="Animation">&quot;Run&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="7" name="Set mirrored" sid="175180124502534" type="Character">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689975651792889">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="550691038852512" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="310752963746241" type="Character">
+                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="543437194195521" type="Character">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="880725055742649">
+            <conditions>
+                <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="560198979480075" type="Character" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="159446230610668" type="Character" />
             </actions>
         </event-block>
     </events>
