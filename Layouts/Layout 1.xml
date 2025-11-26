@@ -46,8 +46,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1009</x>
-                        <y>744</y>
+                        <x>1012</x>
+                        <y>754</y>
                         <z>0</z>
                         <width>2086</width>
                         <height>47</height>
@@ -94,28 +94,6 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Shadow" uid="3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1014.5</x>
-                        <y>398.5</y>
-                        <z>0</z>
-                        <width>2079</width>
-                        <height>241</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -206,7 +184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vent_" uid="10">
+                <instance type="Vent1" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -216,19 +194,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>605</x>
-                        <y>658</y>
+                        <x>743</x>
+                        <y>344</y>
                         <z>0</z>
-                        <width>103.229118347</width>
-                        <height>47.951591492</height>
+                        <width>184.921600342</width>
+                        <height>184.921600342</height>
                         <depth>0</depth>
-                        <hotspotX>0.501075268</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vent_" uid="11">
+                <instance type="Vent2" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -238,19 +216,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1620</x>
-                        <y>661</y>
+                        <x>1747</x>
+                        <y>346</y>
                         <z>0</z>
-                        <width>103.229118347</width>
-                        <height>47.951591492</height>
+                        <width>180.900527954</width>
+                        <height>180.900527954</height>
                         <depth>0</depth>
-                        <hotspotX>0.501075268</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Vent_02_opened" uid="12">
+                <instance type="Shadow" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -260,14 +238,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1123</x>
-                        <y>680</y>
+                        <x>1005</x>
+                        <y>396</y>
                         <z>0</z>
-                        <width>121.469215393</width>
-                        <height>87.3801651</height>
+                        <width>2079</width>
+                        <height>238</height>
                         <depth>0</depth>
-                        <hotspotX>0.500888109</hotspotX>
-                        <hotspotY>0.501234591</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
