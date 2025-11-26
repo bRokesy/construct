@@ -13,7 +13,6 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
@@ -108,98 +107,179 @@
                 <animation framecount="8" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="163481031410407" speed="10">
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run1.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.257861" y="0.620593" />
+                            <point x="0.353018" y="0.49569" />
+                            <point x="0.0969243" y="0.374125" />
+                            <point x="0.308684" y="0.193731" />
+                            <point x="0.320713" y="0.0452586" />
+                            <point x="0.412487" y="0.0131337" />
+                            <point x="0.502064" y="0.0466402" />
+                            <point x="0.666593" y="0.0213676" />
+                            <point x="0.774747" y="0.0841624" />
+                            <point x="0.699375" y="0.201767" />
+                            <point x="0.694051" y="0.286431" />
+                            <point x="0.815985" y="0.214539" />
+                            <point x="0.870479" y="0.275575" />
+                            <point x="0.679019" y="0.392647" />
+                            <point x="0.616996" y="0.55947" />
+                            <point x="0.940085" y="0.879311" />
+                            <point x="0.749058" y="0.937289" />
+                            <point x="0.481459" y="0.661532" />
+                            <point x="0.353019" y="0.773707" />
+                            <point x="0.0347081" y="0.837746" />
+                            <point x="0.00323625" y="0.683191" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run2.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.348475" y="0.607661" />
+                            <point x="0.213207" y="0.460081" />
+                            <point x="0.31742" y="0.0301724" />
+                            <point x="0.708145" y="0.0262672" />
+                            <point x="0.772335" y="0.0928749" />
+                            <point x="0.681453" y="0.266265" />
+                            <point x="0.836525" y="0.344827" />
+                            <point x="0.8203" y="0.393213" />
+                            <point x="0.660084" y="0.400165" />
+                            <point x="0.638228" y="0.545882" />
+                            <point x="0.698497" y="0.638137" />
+                            <point x="0.605655" y="0.868532" />
+                            <point x="0.706987" y="0.926513" />
+                            <point x="0.459814" y="0.933189" />
+                            <point x="0.487783" y="0.697659" />
+                            <point x="0.223687" y="0.855296" />
+                            <point x="0.101986" y="0.74569" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run3.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.361421" y="0.620593" />
+                            <point x="0.260615" y="0.398095" />
+                            <point x="0.337802" y="0.0355117" />
+                            <point x="0.488941" y="0.0409483" />
+                            <point x="0.645468" y="0.0142112" />
+                            <point x="0.77287" y="0.06075" />
+                            <point x="0.703839" y="0.627155" />
+                            <point x="0.499867" y="0.835996" />
+                            <point x="0.576319" y="0.933189" />
+                            <point x="0.35186" y="0.936885" />
+                            <point x="0.231436" y="0.659483" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run4.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.312877" y="0.0343855" />
+                            <point x="0.453342" y="0.0387931" />
+                            <point x="0.634141" y="0.012056" />
+                            <point x="0.750216" y="0.0499741" />
+                            <point x="0.698978" y="0.34136" />
+                            <point x="0.854859" y="0.417229" />
+                            <point x="0.81333" y="0.462925" />
+                            <point x="0.640462" y="0.414652" />
+                            <point x="0.628461" y="0.474567" />
+                            <point x="0.79769" y="0.556035" />
+                            <point x="0.726404" y="0.868323" />
+                            <point x="0.368191" y="0.826403" />
+                            <point x="0.359491" y="0.935344" />
+                            <point x="0.17063" y="0.87654" />
+                            <point x="0.317538" y="0.677494" />
+                            <point x="0.358629" y="0.427109" />
+                            <point x="0.263799" y="0.413793" />
+                            <point x="0.323936" y="0.124951" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run5.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.332294" y="0.208954" />
+                            <point x="0.30859" y="0.0974365" />
+                            <point x="0.356084" y="0.0247116" />
+                            <point x="0.50285" y="0.0387445" />
+                            <point x="0.686351" y="0.0258621" />
+                            <point x="0.765424" y="0.108938" />
+                            <point x="0.760355" y="0.27822" />
+                            <point x="0.863484" y="0.246095" />
+                            <point x="0.908524" y="0.285864" />
+                            <point x="0.639649" y="0.508823" />
+                            <point x="0.807399" y="0.68319" />
+                            <point x="0.851044" y="0.855498" />
+                            <point x="0.972358" y="0.885565" />
+                            <point x="0.776287" y="0.955083" />
+                            <point x="0.55109" y="0.673307" />
+                            <point x="0.353122" y="0.777859" />
+                            <point x="0.144889" y="0.767135" />
+                            <point x="0.0585198" y="0.840517" />
+                            <point x="0.0185269" y="0.708436" />
+                            <point x="0.357991" y="0.627925" />
+                            <point x="0.307659" y="0.419566" />
+                            <point x="0.153766" y="0.37931" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run6.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.306404" y="0.155075" />
+                            <point x="0.344274" y="0.0419773" />
+                            <point x="0.505122" y="0.0474138" />
+                            <point x="0.624433" y="0.0195991" />
+                            <point x="0.769633" y="0.06075" />
+                            <point x="0.7335" y="0.228651" />
+                            <point x="0.855943" y="0.375" />
+                            <point x="0.637452" y="0.462179" />
+                            <point x="0.715909" y="0.687881" />
+                            <point x="0.620636" y="0.879544" />
+                            <point x="0.713066" y="0.916034" />
+                            <point x="0.72964" y="0.954531" />
+                            <point x="0.501885" y="0.954741" />
+                            <point x="0.461893" y="0.773091" />
+                            <point x="0.306468" y="0.79041" />
+                            <point x="0.306382" y="0.842211" />
+                            <point x="0.247959" y="0.868227" />
+                            <point x="0.157002" y="0.756466" />
+                            <point x="0.407945" y="0.640601" />
+                            <point x="0.355423" y="0.492151" />
+                            <point x="0.238176" y="0.490253" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run7.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
-                            <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.397019" y="0.616282" />
+                            <point x="0.387637" y="0.457901" />
+                            <point x="0.274532" y="0.427203" />
+                            <point x="0.329711" y="0.0430548" />
+                            <point x="0.472759" y="0.0474138" />
+                            <point x="0.651941" y="0.0163664" />
+                            <point x="0.769634" y="0.0693706" />
+                            <point x="0.758039" y="0.171101" />
+                            <point x="0.714083" y="0.244815" />
+                            <point x="0.752383" y="0.422414" />
+                            <point x="0.731303" y="0.616273" />
+                            <point x="0.612349" y="0.711048" />
+                            <point x="0.510801" y="0.874816" />
+                            <point x="0.571064" y="0.930824" />
+                            <point x="0.573083" y="0.963362" />
+                            <point x="0.355096" y="0.954126" />
+                            <point x="0.38354" y="0.877156" />
+                            <point x="0.226849" y="0.696072" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504854" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run8.png">
                         <collision-poly>
-                            <point x="0.0733945" y="0.0300752" />
-                            <point x="0.495413" y="0" />
-                            <point x="0.899083" y="0.0413534" />
-                            <point x="0.917431" y="0.5" />
+                            <point x="0.322585" y="0.0817993" />
+                            <point x="0.387964" y="0.0365893" />
+                            <point x="0.653989" y="0.00862069" />
+                            <point x="0.769577" y="0.060665" />
+                            <point x="0.762188" y="0.160123" />
+                            <point x="0.711811" y="0.359039" />
+                            <point x="0.889374" y="0.416353" />
+                            <point x="0.857553" y="0.480908" />
+                            <point x="0.641267" y="0.476496" />
+                            <point x="0.836525" y="0.607759" />
                             <point x="0.752294" y="0.898496" />
-                            <point x="0.495413" y="1" />
-                            <point x="0.348624" y="0.857143" />
-                            <point x="0.0825688" y="0.5" />
+                            <point x="0.404798" y="0.838361" />
+                            <point x="0.404219" y="0.957667" />
+                            <point x="0.190048" y="0.919643" />
+                            <point x="0.38354" y="0.571121" />
+                            <point x="0.378952" y="0.42452" />
+                            <point x="0.261772" y="0.422341" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -222,11 +302,6 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_02.png" />
         </object-type>
-        <object-type name="Tilemap" sid="798119850397561">
-            <plugin id="Tilemap" />
-            <texture />
-            <tiles />
-        </object-type>
         <object-type name="TiledBackground2" sid="402933662274832">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Floor_01.png" />
@@ -246,6 +321,44 @@
         </object-type>
         <object-type name="Keyboard" sid="466132431816319">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Vent_" sid="952882810191647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="957042320979186" speed="5">
+                    <frame duration="1" hotspotX="0.501075" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Vent_02.png">
+                        <collision-poly>
+                            <point x="0.0236559" y="0.0509259" />
+                            <point x="0.498925" y="0.00925926" />
+                            <point x="0.978495" y="0.0462963" />
+                            <point x="0.995699" y="0.5" />
+                            <point x="0.982796" y="0.962963" />
+                            <point x="0.498925" y="0.990741" />
+                            <point x="0.0236559" y="0.949074" />
+                            <point x="0.00215054" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vent_02_opened" sid="514289241064721">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539880386859196" speed="5">
+                    <frame duration="1" hotspotX="0.500888" hotspotY="0.501235" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Vent_02_opened.png">
+                        <collision-poly>
+                            <point x="0.119005" y="0.165432" />
+                            <point x="0.499112" y="0.00493827" />
+                            <point x="0.937833" y="0.0864198" />
+                            <point x="0.928952" y="0.498765" />
+                            <point x="0.964476" y="0.950617" />
+                            <point x="0.499112" y="0.901235" />
+                            <point x="0.150977" y="0.790123" />
+                            <point x="0.127886" y="0.498765" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
