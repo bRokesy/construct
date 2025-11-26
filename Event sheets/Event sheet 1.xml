@@ -9,7 +9,7 @@
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="503105982291861" type="Character">
-                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                    <param id="0" name="Animation">&quot;Walk&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>

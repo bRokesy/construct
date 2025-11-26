@@ -202,6 +202,107 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="9" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="230266489324177" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_1.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_2.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_3.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_4.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_5.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_6.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_7.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_8.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Walk\PMG_Walk_9.png">
+                        <collision-poly>
+                            <point x="0.315714" y="0.238147" />
+                            <point x="0.5" y="0.0323276" />
+                            <point x="0.69" y="0.233836" />
+                            <point x="0.648571" y="0.5" />
+                            <point x="0.754286" y="0.814655" />
+                            <point x="0.5" y="0.792026" />
+                            <point x="0.154286" y="0.883621" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Sprite" sid="632803854658777">
