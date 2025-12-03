@@ -360,6 +360,35 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite2" sid="162962817863249">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="656957989219874" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Doorway_Floor.png">
+                        <collision-poly>
+                            <point x="0.012" y="0.162679" />
+                            <point x="0.992" y="0.157895" />
+                            <point x="0.992" y="0.990431" />
+                            <point x="0.016" y="0.980861" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="224078017450533">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591057813969427" speed="5">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Doorway_Wall.png">
+                        <collision-poly>
+                            <point x="0.879227" y="0.962687" />
+                            <point x="0.0531404" y="0.973134" />
+                            <point x="0.115942" y="0.964179" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
