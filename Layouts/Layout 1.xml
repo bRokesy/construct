@@ -98,6 +98,26 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Wall_01_Tiled" uid="19">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2042</x>
+                        <y>213</y>
+                        <z>0</z>
+                        <width>510</width>
+                        <height>486</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="TiledBackground2" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -109,7 +129,7 @@
                         <x>-22</x>
                         <y>692</y>
                         <z>0</z>
-                        <width>2083</width>
+                        <width>2573</width>
                         <height>71</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -228,6 +248,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="EO_Doorway_Wall" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2018</x>
+                        <y>564</y>
+                        <z>0</z>
+                        <width>98.235145569</width>
+                        <height>298.976501465</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Wall" uid="17">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2017.999511719</x>
+                        <y>321.98828125</y>
+                        <z>0</z>
+                        <width>98</width>
+                        <height>223</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Shadow" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -238,13 +302,79 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1005</x>
-                        <y>396</y>
+                        <x>1266</x>
+                        <y>384.5</y>
                         <z>0</z>
-                        <width>2079</width>
-                        <height>238</height>
+                        <width>2601</width>
+                        <height>261</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Vent_" uid="10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>593</x>
+                        <y>662</y>
+                        <z>0</z>
+                        <width>93.004623413</width>
+                        <height>43.202152252</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501075268</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Vent_02_opened" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1102</x>
+                        <y>681</y>
+                        <z>0</z>
+                        <width>108.541679382</width>
+                        <height>78.080604553</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500888109</hotspotX>
+                        <hotspotY>0.501234591</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Vent_" uid="14">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1617.171875</x>
+                        <y>663.611999512</y>
+                        <z>0</z>
+                        <width>93.004623413</width>
+                        <height>43.202152252</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501075268</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -290,6 +420,50 @@
                         <hotspotX>0.504285693</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Floor" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2018.037353516</x>
+                        <y>723.731018066</y>
+                        <z>0</z>
+                        <width>98.205680847</width>
+                        <height>74.59854126</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Floor" uid="18">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2017</x>
+                        <y>233</y>
+                        <z>0</z>
+                        <width>98.205680847</width>
+                        <height>74.59854126</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

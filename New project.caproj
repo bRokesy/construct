@@ -461,6 +461,78 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Vent_" sid="413771022296510">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167707304383205" speed="5">
+                    <frame duration="1" hotspotX="0.501075" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Vent_02.png">
+                        <collision-poly>
+                            <point x="0.0236559" y="0.0509259" />
+                            <point x="0.498925" y="0.00925926" />
+                            <point x="0.978495" y="0.0462963" />
+                            <point x="0.995699" y="0.5" />
+                            <point x="0.982796" y="0.962963" />
+                            <point x="0.498925" y="0.990741" />
+                            <point x="0.0236559" y="0.949074" />
+                            <point x="0.00215054" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vent_02_opened" sid="143024603579492">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655820167475132" speed="5">
+                    <frame duration="1" hotspotX="0.500888" hotspotY="0.501235" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Vent_02_opened.png">
+                        <collision-poly>
+                            <point x="0.119005" y="0.165432" />
+                            <point x="0.499112" y="0.00493827" />
+                            <point x="0.937833" y="0.0864198" />
+                            <point x="0.928952" y="0.498765" />
+                            <point x="0.964476" y="0.950617" />
+                            <point x="0.499112" y="0.901235" />
+                            <point x="0.150977" y="0.790123" />
+                            <point x="0.127886" y="0.498765" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Doorway_Floor" sid="165965882996251">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592452717485028" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Doorway_Floor.png">
+                        <collision-poly>
+                            <point x="0.0144231" y="0.0189873" />
+                            <point x="0.5" y="0.14557" />
+                            <point x="0.985577" y="0.0189873" />
+                            <point x="0.985577" y="0.981013" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0144231" y="0.981013" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Doorway_Wall" sid="723321291796865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737429190672879" speed="5">
+                    <frame duration="1" hotspotX="0.502415" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Doorway_Wall.png">
+                        <collision-poly>
+                            <point x="0.00483092" y="0.0015873" />
+                            <point x="0.990338" y="0.0031746" />
+                            <point x="0.990338" y="0.5" />
+                            <point x="0.845411" y="0.949206" />
+                            <point x="0.15942" y="0.947619" />
+                            <point x="0.00483092" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
