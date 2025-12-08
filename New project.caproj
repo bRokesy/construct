@@ -330,6 +330,80 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="6" loop="0" name="IDLE" pingpong="0" repeatcount="1" repeatto="0" sid="880978121861697" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_1.png">
+                        <collision-poly>
+                            <point x="0.916216" y="0.5" />
+                            <point x="0.713513" y="0.872289" />
+                            <point x="0.5" y="0.763855" />
+                            <point x="0.235135" y="0.895181" />
+                            <point x="0.0702703" y="0.5" />
+                            <point x="0.113514" y="0.0506024" />
+                            <point x="0.5" y="0.0253012" />
+                            <point x="0.797297" y="0.0903614" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_2.png">
+                        <collision-poly>
+                            <point x="0.910811" y="0.5" />
+                            <point x="0.827027" y="0.922892" />
+                            <point x="0.5" y="0.796386" />
+                            <point x="0.237838" y="0.893976" />
+                            <point x="0.0702703" y="0.5" />
+                            <point x="0.105405" y="0.046988" />
+                            <point x="0.5" y="0.0120482" />
+                            <point x="0.8" y="0.0891566" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_3.png">
+                        <collision-poly>
+                            <point x="0.927027" y="0.5" />
+                            <point x="0.713513" y="0.872289" />
+                            <point x="0.5" y="0.759036" />
+                            <point x="0.235135" y="0.895181" />
+                            <point x="0.0702703" y="0.5" />
+                            <point x="0.1" y="0.0445783" />
+                            <point x="0.5" y="0" />
+                            <point x="0.805405" y="0.086747" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_4.png">
+                        <collision-poly>
+                            <point x="0.859459" y="0.5" />
+                            <point x="0.827027" y="0.922892" />
+                            <point x="0.5" y="0.795181" />
+                            <point x="0.235135" y="0.895181" />
+                            <point x="0.116216" y="0.5" />
+                            <point x="0.102703" y="0.0457831" />
+                            <point x="0.5" y="0" />
+                            <point x="0.808108" y="0.0855422" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_5.png">
+                        <collision-poly>
+                            <point x="0.856757" y="0.5" />
+                            <point x="0.835135" y="0.926506" />
+                            <point x="0.5" y="0.79759" />
+                            <point x="0.237838" y="0.893976" />
+                            <point x="0.127027" y="0.5" />
+                            <point x="0.102703" y="0.0457831" />
+                            <point x="0.5" y="0" />
+                            <point x="0.808108" y="0.0855422" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_6.png">
+                        <collision-poly>
+                            <point x="0.854054" y="0.5" />
+                            <point x="0.821622" y="0.920482" />
+                            <point x="0.5" y="0.760241" />
+                            <point x="0.235135" y="0.895181" />
+                            <point x="0.118919" y="0.5" />
+                            <point x="0.113514" y="0.0506024" />
+                            <point x="0.5" y="0.0180723" />
+                            <point x="0.802703" y="0.0879518" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Sprite" sid="632803854658777">
