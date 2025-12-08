@@ -50,5 +50,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="756797782852253">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="290416062740753" type="Character">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="539617503041180" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="883211132368485" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

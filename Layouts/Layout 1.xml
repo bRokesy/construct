@@ -13,13 +13,224 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="372331947655675">
+        <layer name="Layer 2" sid="268616672489362">
             <initially-visible>1</initially-visible>
             <background-color>0,0,0</background-color>
             <transparent>0</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0.01</x>
+                <y>0.01</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="BO_Supernova" uid="20">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1197</x>
+                        <y>901</y>
+                        <z>0</z>
+                        <width>1426.821655273</width>
+                        <height>1102.242919922</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500464261</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.213721201</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Layer 3" sid="767062438416337">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0.05</x>
+                <y>0.05</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="BO_Stars" uid="23">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>273</x>
+                        <y>459</y>
+                        <z>0</z>
+                        <width>1038.072509766</width>
+                        <height>590.373046875</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>2.452508211</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BO_Stars" uid="24">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1587</x>
+                        <y>185</y>
+                        <z>0</z>
+                        <width>1177.786865234</width>
+                        <height>669.831420898</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BO_Stars" uid="25">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2537</x>
+                        <y>776</y>
+                        <z>0</z>
+                        <width>1177.786865234</width>
+                        <height>669.831420898</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.097101875</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Layer 1" sid="186884936993505">
+            <initially-visible>1</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0.1</x>
+                <y>0.1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="BO_Stars" uid="21">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>656</x>
+                        <y>337</y>
+                        <z>0</z>
+                        <width>1206.187011719</width>
+                        <height>685.983154297</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BO_Stars" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1960.210693359</x>
+                        <y>623.574401855</y>
+                        <z>0</z>
+                        <width>1163.373657227</width>
+                        <height>661.634338379</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.818790853</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BO_Stars" uid="28">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1960</x>
+                        <y>626</y>
+                        <z>0</z>
+                        <width>1163.373657227</width>
+                        <height>661.634338379</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500263274</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.818790853</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Layer 0" sid="372331947655675">
+            <initially-visible>1</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1.1</x>
+                <y>1.1</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -46,11 +257,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1012</x>
-                        <y>754</y>
+                        <x>1515</x>
+                        <y>748</y>
                         <z>0</z>
-                        <width>2086</width>
-                        <height>47</height>
+                        <width>3095</width>
+                        <height>68</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -192,8 +403,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1280</x>
-                        <y>410</y>
+                        <x>1278</x>
+                        <y>408</y>
                         <z>0</z>
                         <width>2601</width>
                         <height>261</height>
@@ -336,6 +547,94 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="EO_Doorway_Wall" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2019</x>
+                        <y>576</y>
+                        <z>0</z>
+                        <width>98.235145569</width>
+                        <height>298.976501465</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Floor" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2019</x>
+                        <y>736</y>
+                        <z>0</z>
+                        <width>98.205680847</width>
+                        <height>74.59854126</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Wall" uid="17">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2019</x>
+                        <y>332</y>
+                        <z>0</z>
+                        <width>98</width>
+                        <height>223</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EO_Doorway_Floor" uid="18">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2017</x>
+                        <y>233</y>
+                        <z>0</z>
+                        <width>98.205680847</width>
+                        <height>74.59854126</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Character" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -367,8 +666,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>247</x>
-                        <y>526</y>
+                        <x>249</x>
+                        <y>551</y>
                         <z>0</z>
                         <width>285.199188232</width>
                         <height>378.092651367</height>
@@ -379,7 +678,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EO_Doorway_Wall" uid="16">
+                <instance type="Shadow_Line" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -389,55 +688,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2018</x>
-                        <y>564</y>
+                        <x>2034</x>
+                        <y>494.5</y>
                         <z>0</z>
-                        <width>98.235145569</width>
-                        <height>298.976501465</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502415478</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EO_Doorway_Floor" uid="15">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2018.037353516</x>
-                        <y>723.731018066</y>
-                        <z>0</z>
-                        <width>98.205680847</width>
-                        <height>74.59854126</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EO_Doorway_Floor" uid="18">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2017</x>
-                        <y>233</y>
-                        <z>0</z>
-                        <width>98.205680847</width>
-                        <height>74.59854126</height>
+                        <width>327</width>
+                        <height>478</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -445,7 +700,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EO_Doorway_Wall" uid="17">
+                <instance type="Sprite4" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -455,13 +710,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2017.999511719</x>
-                        <y>321.98828125</y>
+                        <x>2532</x>
+                        <y>483</y>
                         <z>0</z>
-                        <width>98</width>
-                        <height>223</height>
+                        <width>934</width>
+                        <height>576</height>
                         <depth>0</depth>
-                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

@@ -176,8 +176,8 @@
                         <collision-poly>
                             <point x="0.14" y="0" />
                             <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.861429" y="0.970906" />
+                            <point x="0.14" y="0.971982" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.2.png">
@@ -248,48 +248,48 @@
                 <animation framecount="6" loop="1" name="IDLE" pingpong="0" repeatcount="1" repeatto="0" sid="880978121861697" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_1.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_2.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_3.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_4.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_5.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_6.png">
                         <collision-poly>
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="1" y="0.973494" />
+                            <point x="0.0108108" y="0.975904" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
@@ -495,6 +495,65 @@
                             <point x="0.00483092" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background_" sid="750594014747444">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859692010459917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Background_01.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BO_Supernova" sid="752666821647598">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388507711192195" speed="5">
+                    <frame duration="1" hotspotX="0.500464" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\BO_Supernova.png">
+                        <collision-poly>
+                            <point x="0.499536" y="0.0913462" />
+                            <point x="0.833798" y="0.215144" />
+                            <point x="0.865367" y="0.5" />
+                            <point x="0.733519" y="0.655048" />
+                            <point x="0.499536" y="0.861779" />
+                            <point x="0.125348" y="0.83774" />
+                            <point x="0.0241411" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BO_Stars" sid="982843387806433">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290021913013087" speed="5">
+                    <frame duration="1" hotspotX="0.500263" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\BO_Stars.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Shadow_Line" sid="396938484724975">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="821179481969159" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Shadow_Line.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.629883" y="0.370117" />
+                            <point x="0.629883" y="0.629883" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="274582170243296">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950291892148834" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
