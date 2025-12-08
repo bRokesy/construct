@@ -44,7 +44,10 @@
                 <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="560198979480075" type="Character" />
             </conditions>
             <actions>
-                <action id="2" name="Stop" sid="159446230610668" type="Character" />
+                <action id="4" name="Set animation" sid="737999415020728" type="Character">
+                    <param id="0" name="Animation">&quot;IDLE&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
