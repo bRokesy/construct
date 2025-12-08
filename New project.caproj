@@ -106,192 +106,192 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="8" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="163481031410407" speed="10">
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run1.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run1.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run2.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run2.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run3.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run3.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run4.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run4.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run5.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run5.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run6.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run6.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run7.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run7.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Run\PNG_Run8.png">
+                    <frame duration="1" hotspotX="0.504286" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Run\PNG_Run8.png">
                         <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0.00431034" />
-                            <point x="1" y="0.943965" />
-                            <point x="0" y="0.943966" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="9" loop="0" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="812493300839149" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.1.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_1.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.970906" />
-                            <point x="0.14" y="0.971982" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.2.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_2.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.3.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_3.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.4.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_4.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.5.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_5.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.6.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_6.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.7.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_7.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.8.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_8.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\1\PMG_Walk_1.9.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Walk\Walk_9.png">
                         <collision-poly>
-                            <point x="0.14" y="0" />
-                            <point x="0.86" y="0" />
-                            <point x="0.861429" y="0.979527" />
-                            <point x="0.14" y="0.980603" />
+                            <point x="0.269999" y="0.01375" />
+                            <point x="0.731429" y="0.015" />
+                            <point x="0.737143" y="0.948404" />
+                            <point x="0.275714" y="0.947244" />
                         </collision-poly>
                     </frame>
                 </animation>
                 <animation framecount="6" loop="1" name="IDLE" pingpong="0" repeatcount="1" repeatto="0" sid="880978121861697" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_1.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_2.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_3.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_4.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_5.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\IDLE\Frames\IDLE_6.png">
                         <collision-poly>
-                            <point x="1" y="0.973494" />
-                            <point x="0.0108108" y="0.975904" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
+                            <point x="0.724286" y="0.947244" />
+                            <point x="0.262857" y="0.948404" />
+                            <point x="0.268571" y="0.015" />
+                            <point x="0.730001" y="0.01375" />
                         </collision-poly>
                     </frame>
                 </animation>
