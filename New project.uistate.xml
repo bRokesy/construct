@@ -43,5 +43,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Vent_02_opened/" />
         <folder expanded="1" path="animation-folder/EO_Doorway_Floor/" />
         <folder expanded="1" path="animation-folder/EO_Doorway_Wall/" />
+        <folder expanded="1" path="animation-folder/Background_/" />
+        <folder expanded="1" path="animation-folder/BO_Supernova/" />
+        <folder expanded="1" path="animation-folder/BO_Stars/" />
+        <folder expanded="1" path="animation-folder/Shadow_Line/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
     </folders-expanded>
 </c2uistate>
