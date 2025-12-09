@@ -80,8 +80,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>273</x>
-                        <y>459</y>
+                        <x>496</x>
+                        <y>294</y>
                         <z>0</z>
                         <width>1038.072509766</width>
                         <height>590.373046875</height>
@@ -102,8 +102,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1587</x>
-                        <y>185</y>
+                        <x>1448</x>
+                        <y>196</y>
                         <z>0</z>
                         <width>1177.786865234</width>
                         <height>669.831420898</height>
@@ -165,8 +165,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>656</x>
-                        <y>337</y>
+                        <x>686</x>
+                        <y>600</y>
                         <z>0</z>
                         <width>1206.187011719</width>
                         <height>685.983154297</height>
@@ -187,8 +187,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1960.210693359</x>
-                        <y>623.574401855</y>
+                        <x>1829</x>
+                        <y>706</y>
                         <z>0</z>
                         <width>1163.373657227</width>
                         <height>661.634338379</height>
@@ -209,15 +209,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1960</x>
-                        <y>626</y>
+                        <x>1111</x>
+                        <y>814</y>
                         <z>0</z>
                         <width>1163.373657227</width>
                         <height>661.634338379</height>
                         <depth>0</depth>
                         <hotspotX>0.500263274</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0.818790853</angle>
+                        <angle>0.28237471</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -403,8 +403,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1278</x>
-                        <y>408</y>
+                        <x>1272</x>
+                        <y>404</y>
                         <z>0</z>
                         <width>2601</width>
                         <height>261</height>
@@ -623,8 +623,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2017</x>
-                        <y>233</y>
+                        <x>2018</x>
+                        <y>251</y>
                         <z>0</z>
                         <width>98.205680847</width>
                         <height>74.59854126</height>
@@ -632,6 +632,123 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Particles_VentCloud" uid="30">
+                    <properties>
+                        <rate>10</rate>
+                        <spray-cone>170</spray-cone>
+                        <type>Continuous spray</type>
+                        <initial-particle-properties></initial-particle-properties>
+                        <speed>40</speed>
+                        <size>200</size>
+                        <opacity>100</opacity>
+                        <grow-rate>50</grow-rate>
+                        <x-randomiser>0</x-randomiser>
+                        <y-randomiser>0</y-randomiser>
+                        <speed-randomiser->0</speed-randomiser->
+                        <size-randomiser>10</size-randomiser>
+                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <particle-lifetime-properties></particle-lifetime-properties>
+                        <acceleration>500</acceleration>
+                        <gravity>0</gravity>
+                        <angle-randomiser>0</angle-randomiser>
+                        <speed-randomiser>800</speed-randomiser>
+                        <opacity-randomiser>0</opacity-randomiser>
+                        <destroy-mode>Fade to invisible</destroy-mode>
+                        <timeout>1</timeout>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1756</x>
+                        <y>385</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.570796371</angle>
+                        <opacity>0.029999999</opacity>
+                    </world>
+                </instance>
+                <instance type="Particles_VentCloud" uid="29">
+                    <properties>
+                        <rate>10</rate>
+                        <spray-cone>170</spray-cone>
+                        <type>Continuous spray</type>
+                        <initial-particle-properties></initial-particle-properties>
+                        <speed>40</speed>
+                        <size>200</size>
+                        <opacity>100</opacity>
+                        <grow-rate>50</grow-rate>
+                        <x-randomiser>0</x-randomiser>
+                        <y-randomiser>0</y-randomiser>
+                        <speed-randomiser->0</speed-randomiser->
+                        <size-randomiser>10</size-randomiser>
+                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <particle-lifetime-properties></particle-lifetime-properties>
+                        <acceleration>500</acceleration>
+                        <gravity>0</gravity>
+                        <angle-randomiser>0</angle-randomiser>
+                        <speed-randomiser>800</speed-randomiser>
+                        <opacity-randomiser>0</opacity-randomiser>
+                        <destroy-mode>Fade to invisible</destroy-mode>
+                        <timeout>1</timeout>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>757</x>
+                        <y>390</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.570796371</angle>
+                        <opacity>0.029999999</opacity>
+                    </world>
+                </instance>
+                <instance type="Sparks" uid="31">
+                    <properties>
+                        <rate>10</rate>
+                        <spray-cone>170</spray-cone>
+                        <type>Continuous spray</type>
+                        <initial-particle-properties></initial-particle-properties>
+                        <speed>400</speed>
+                        <size>10</size>
+                        <opacity>100</opacity>
+                        <grow-rate>0</grow-rate>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->40</speed-randomiser->
+                        <size-randomiser>4</size-randomiser>
+                        <grow-rate-randomiser>4</grow-rate-randomiser>
+                        <particle-lifetime-properties></particle-lifetime-properties>
+                        <acceleration>-150</acceleration>
+                        <gravity>500</gravity>
+                        <angle-randomiser>0</angle-randomiser>
+                        <speed-randomiser>800</speed-randomiser>
+                        <opacity-randomiser>0</opacity-randomiser>
+                        <destroy-mode>Fade to invisible</destroy-mode>
+                        <timeout>0.4</timeout>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1080.286743164</x>
+                        <y>711.509338379</y>
+                        <z>0</z>
+                        <width>128</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -649,7 +766,7 @@
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
                                 <jump-strength>650</jump-strength>
-                                <gravity>1500</gravity>
+                                <gravity>2000</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
