@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainMenu_Events</name>
+    <events>
+        <event-block sid="623457567237839">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="952634798184013" type="Mouse">
+                    <param id="0" name="Object">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="540958626876073" type="Button_Exit">
+                    <param id="0" name="Animation">&quot;Exit_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="699323131105459">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="411479331793351" type="Mouse">
+                    <param id="0" name="Object">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="865102485884915" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="758308971977581" type="Button_Exit">
+                    <param id="0" name="Animation">&quot;Exit_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="674287303403424">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="490163051222782" type="Mouse">
+                    <param id="0" name="Object">Button_Play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="606080088844202" type="Button_Play">
+                    <param id="0" name="Animation">&quot;Play_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="163747005435930">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="722790679597887" type="Mouse">
+                    <param id="0" name="Object">Button_Play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="637763656877856" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="836463515331656" type="Button_Play">
+                    <param id="0" name="Animation">&quot;Play_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="600338473825054">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="365457394240494" type="Mouse">
+                    <param id="0" name="Object">Button_Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="449105449417361" type="Button_Settings">
+                    <param id="0" name="Animation">&quot;Settings_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="388728297084260">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="279250566751190" type="Mouse">
+                    <param id="0" name="Object">Button_Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="240201116991032" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="217398107283506" type="Button_Settings">
+                    <param id="0" name="Animation">&quot;Settings_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="259041245566888">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="764466347294838" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Button_Play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="171014229935382" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

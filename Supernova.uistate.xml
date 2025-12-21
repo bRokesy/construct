@@ -10,8 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Layout 1</layout>
+        <layout order="0">Layout 1</layout>
+        <layout active="1" order="2">MainMenu</layout>
         <event-sheet order="1">Event sheet 1</event-sheet>
+        <event-sheet order="3">MainMenu_Events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -21,9 +23,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -48,5 +50,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BO_Stars/" />
         <folder expanded="1" path="animation-folder/Shadow_Line/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Button_Exit/" />
+        <folder expanded="1" path="animation-folder/Button_Play/" />
+        <folder expanded="1" path="animation-folder/Button_Settings/" />
+        <folder expanded="1" path="animation-folder/Star/" />
+        <folder expanded="1" path="animation-folder/Logo_Text/" />
+        <folder expanded="1" path="animation-folder/Logo_Text_Shadow/" />
+        <folder expanded="1" path="animation-folder/Character_Menu/" />
     </folders-expanded>
 </c2uistate>

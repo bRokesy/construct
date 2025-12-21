@@ -10,14 +10,18 @@
     <unique-id>360kodre5h083</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -33,7 +37,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Layout 1</first-layout>
+    <first-layout>MainMenu</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -567,16 +571,152 @@
             <plugin id="Particles" />
             <texture />
         </object-type>
+        <object-type name="Logo_supernova" sid="335791684575641">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button_Exit" sid="778990954463722">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Exit_Def" pingpong="0" repeatcount="0" repeatto="0" sid="771731121606921" speed="5">
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.513514" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Exit_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="983737638091381" speed="5">
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.512821" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit_Hovered.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_Play" sid="321486681051204">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Play_Def" pingpong="0" repeatcount="1" repeatto="0" sid="617652659826228" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Play.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Play_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="355854855381371" speed="5">
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.509804" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Play_Hovered.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_Settings" sid="647774897592869">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Settings_Def" pingpong="0" repeatcount="1" repeatto="0" sid="974669867872294" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Settings_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="911631698712535" speed="5">
+                    <frame duration="1" hotspotX="0.502164" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings_Hovered.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Star" sid="355368470268739">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="401965789323414">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="346212837561877">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441208900078643" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Star.png">
+                        <collision-poly>
+                            <point x="0.213867" y="0.213867" />
+                            <point x="0.5" y="0.0878906" />
+                            <point x="0.786133" y="0.213867" />
+                            <point x="0.892578" y="0.5" />
+                            <point x="0.779297" y="0.779297" />
+                            <point x="0.5" y="0.897461" />
+                            <point x="0.223633" y="0.776367" />
+                            <point x="0.100586" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Logo_Text" sid="157550773457662">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432187039517176" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Logo_Text.png">
+                        <collision-poly>
+                            <point x="0.00826446" y="0.0851064" />
+                            <point x="0.5" y="0.0212766" />
+                            <point x="0.991736" y="0.0851064" />
+                            <point x="0.997934" y="0.489362" />
+                            <point x="0.977273" y="0.765957" />
+                            <point x="0.5" y="0.191489" />
+                            <point x="0.0227273" y="0.765957" />
+                            <point x="0.0702479" y="0.489362" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Logo_Text_Shadow" sid="903301996155706">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527684377954687" speed="5">
+                    <frame duration="1" hotspotX="0.500524" hotspotY="0.504673" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Logo_Text_Shadow.png">
+                        <collision-poly>
+                            <point x="0.00732984" y="0.0654206" />
+                            <point x="0.499476" y="0" />
+                            <point x="0.98534" y="0.130841" />
+                            <point x="1" y="0.495327" />
+                            <point x="0.976963" y="0.794393" />
+                            <point x="0.499476" y="0.308411" />
+                            <point x="0.0230366" y="0.794393" />
+                            <point x="0.00209424" y="0.495327" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Character_Menu" sid="576700930309436">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="146204537878577">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="446507956956089">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589530611370690" speed="5">
+                    <frame duration="1" hotspotX="0.525" hotspotY="0.962848" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character_Menu.png">
+                        <collision-poly>
+                            <point x="0.166389" y="0.154799" />
+                            <point x="0.499168" y="0.00309598" />
+                            <point x="0.85025" y="0.139319" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.00831947" y="0.99226" />
+                            <point x="0.124792" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="856138386977090">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Mouse" sid="520141637528631">
+            <plugin id="Mouse" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
+        <layout>MainMenu.xml</layout>
         <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>MainMenu_Events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="7" />
+        <global-instance type="Mouse" uid="38" />
     </global-instances>
     <sounds-folder />
     <music-folder />
