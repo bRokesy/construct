@@ -100,8 +100,20 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="171014229935382" type="System">
-                    <param id="0" name="Layout">Layout 1</param>
+                    <param id="0" name="Layout">Level_1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="250157044310430">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="141064015737775" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="439149668625162" type="Browser" />
             </actions>
         </event-block>
     </events>

@@ -10,6 +10,7 @@
     <unique-id>360kodre5h083</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -457,14 +458,10 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655820167475132" speed="5">
                     <frame duration="1" hotspotX="0.500888" hotspotY="0.501235" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Vent_02_opened.png">
                         <collision-poly>
-                            <point x="0.119005" y="0.165432" />
-                            <point x="0.499112" y="0.00493827" />
-                            <point x="0.937833" y="0.0864198" />
-                            <point x="0.928952" y="0.498765" />
-                            <point x="0.964476" y="0.950617" />
-                            <point x="0.499112" y="0.901235" />
-                            <point x="0.150977" y="0.790123" />
-                            <point x="0.127886" y="0.498765" />
+                            <point x="0.994671" y="0.844443" />
+                            <point x="1" y="0.967901" />
+                            <point x="0.277087" y="0.990124" />
+                            <point x="0.262878" y="0.861728" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -704,11 +701,41 @@
         <object-type name="Mouse" sid="520141637528631">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="Blach_rectangle" sid="240167160068017">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550740891604042" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_Continue" sid="380416263804392">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Continue_Def" pingpong="0" repeatcount="1" repeatto="0" sid="710627945018555" speed="5">
+                    <frame duration="1" hotspotX="0.502183" hotspotY="0.513514" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Continue.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Continue_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="926077843926759" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Continue_Hovered.png">
+                        <collision-poly>
+                            <point x="0.00434783" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="943582336309698">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainMenu.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>Level_1.xml</layout>
+        <layout>Pause.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -717,6 +744,7 @@
     <global-instances>
         <global-instance type="Keyboard" uid="7" />
         <global-instance type="Mouse" uid="38" />
+        <global-instance type="Browser" uid="43" />
     </global-instances>
     <sounds-folder />
     <music-folder />

@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="CurrentLevel" sid="607870445435095" static="0" type="text">Level_1</variable>
+        <variable constant="0" name="PauseEnabled" sid="349521859303828" static="0" type="number">0</variable>
         <event-block sid="189682187576405">
             <conditions />
             <actions />
@@ -60,7 +62,137 @@
                 <action id="-16" name="Wait" sid="539617503041180" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
-                <action id="-26" name="Restart layout" sid="883211132368485" type="System" />
+                <action id="-9" name="Set value" sid="823803795486759" type="System">
+                    <param id="0" name="Variable">CurrentLevel</param>
+                    <param id="1" name="Value">&quot;Level_2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="354959789947326">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="283932815078323" type="Character">
+                    <param id="0" name="Object">Vent_02_opened</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="402796613580907" type="Character">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">0.4</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="932552977277511">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="257953972289824" type="Keyboard">
+                    <param id="0" name="Key">71 (G)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="722862523657990">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="361042746253782" type="System">
+                            <param id="0" name="Variable">PauseEnabled</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="154617243278159" type="System">
+                            <param id="0" name="Variable">PauseEnabled</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="750868390138749" type="System">
+                            <param id="0" name="Layout">Pause</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="493039147637773">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="770837724246147" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Button_Continue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="927139293366902" type="System">
+                    <param id="0" name="Variable">PauseEnabled</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="144258812391700" type="System">
+                    <param id="0" name="Layout">CurrentLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="894131459073368">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="225085382796897" type="Mouse">
+                    <param id="0" name="Object">Button_Continue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="801129101749046" type="Button_Continue">
+                    <param id="0" name="Animation">&quot;Continue_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="112057912739277">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="799339843740861" type="Mouse">
+                    <param id="0" name="Object">Button_Continue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="581845896380614" type="Button_Continue">
+                    <param id="0" name="Animation">&quot;Continue_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="532113551454689">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="512629550315145" type="Mouse">
+                    <param id="0" name="Object">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="660053170045119" type="Button_Exit">
+                    <param id="0" name="Animation">&quot;Exit_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="233804704909940">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="666747961544737" type="Mouse">
+                    <param id="0" name="Object">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="793801589072181" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="410851029432845" type="Button_Exit">
+                    <param id="0" name="Animation">&quot;Exit_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="372661542905610">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="887882461090998" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Button_Exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="713671859393407" type="Browser" />
             </actions>
         </event-block>
     </events>
