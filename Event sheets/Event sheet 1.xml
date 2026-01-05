@@ -66,6 +66,9 @@
                     <param id="0" name="Variable">CurrentLevel</param>
                     <param id="1" name="Value">&quot;Level_2&quot;</param>
                 </action>
+                <action id="-25" name="Go to layout (by name)" sid="877566073974073" type="System">
+                    <param id="0" name="Layout">CurrentLevel</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="354959789947326">
@@ -74,13 +77,7 @@
                     <param id="0" name="Object">Vent_02_opened</param>
                 </condition>
             </conditions>
-            <actions>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="402796613580907" type="Character">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.4</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="932552977277511">
             <conditions>

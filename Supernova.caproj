@@ -107,7 +107,7 @@
                 <behavior-type name="Platform" sid="771464208495097">
                     <behavior id="Platform" />
                 </behavior-type>
-                <behavior-type name="ScrollTo" sid="789137406995497">
+                <behavior-type name="ScrollTo" sid="771478634336899">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
@@ -730,11 +730,29 @@
         <object-type name="Browser" sid="943582336309698">
             <plugin id="Browser" />
         </object-type>
+        <object-type name="Sprite5" sid="462490303401682">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290682503655389" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_ShipSkin_Straight" sid="975800743282209">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="770086295779688">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_ShipSkin_Straight.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainMenu.xml</layout>
         <layout>Level_1.xml</layout>
+        <layout>Level_2.xml</layout>
         <layout>Pause.xml</layout>
     </layout-folder>
     <event-folder>
