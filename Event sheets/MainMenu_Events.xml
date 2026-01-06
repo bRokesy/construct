@@ -116,5 +116,16 @@
                 <action id="1" name="Close" sid="439149668625162" type="Browser" />
             </actions>
         </event-block>
+        <event-block sid="487446423314302">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="890774186152012" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="827707322859972" type="System">
+                    <param id="0" name="Variable">CurrentLevel</param>
+                    <param id="1" name="Value">&quot;Level_1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

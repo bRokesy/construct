@@ -62,5 +62,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Blach_rectangle/" />
         <folder expanded="1" path="animation-folder/Button_Continue/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/EO_Tank/" />
+        <folder expanded="1" path="animation-folder/EO_Elevator_Basement/" />
+        <folder expanded="1" path="animation-folder/EO_Elevator/" />
+        <folder expanded="1" path="animation-folder/EO_Elevator_Controller/" />
     </folders-expanded>
 </c2uistate>

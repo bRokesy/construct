@@ -21,6 +21,7 @@
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -109,6 +110,12 @@
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="771478634336899">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="898580725524080">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="382736051962391">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -317,7 +324,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground" sid="447908274529721">
+        <object-type name="Wall_Widow" sid="447908274529721">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_02.png" />
         </object-type>
@@ -335,6 +342,9 @@
             <behaviors>
                 <behavior-type name="Solid" sid="129179381306071">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="118271921514116">
+                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -578,7 +588,16 @@
                     <frame duration="1" hotspotX="0.504505" hotspotY="0.513514" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Exit_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="983737638091381" speed="5">
-                    <frame duration="1" hotspotX="0.504425" hotspotY="0.512821" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit_Hovered.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.525" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit_Hovered.png">
+                        <collision-poly>
+                            <point x="0.0267857" y="0.075" />
+                            <point x="0.892857" y="0.3" />
+                            <point x="0.892857" y="0.5" />
+                            <point x="0.991071" y="0.975" />
+                            <point x="0.0267857" y="0.925" />
+                            <point x="0.00892857" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -589,7 +608,16 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Play.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Play_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="355854855381371" speed="5">
-                    <frame duration="1" hotspotX="0.504425" hotspotY="0.509804" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Play_Hovered.png" />
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.509804" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Play_Hovered.png">
+                        <collision-poly>
+                            <point x="0.0176991" y="0.0392157" />
+                            <point x="0.840708" y="0.352941" />
+                            <point x="0.964602" y="0.490196" />
+                            <point x="0.911504" y="0.803922" />
+                            <point x="0.327434" y="0.27451" />
+                            <point x="0" y="0.490196" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -600,7 +628,16 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Settings_Hover" pingpong="0" repeatcount="1" repeatto="0" sid="911631698712535" speed="5">
-                    <frame duration="1" hotspotX="0.502164" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings_Hovered.png" />
+                    <frame duration="1" hotspotX="0.502164" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings_Hovered.png">
+                        <collision-poly>
+                            <point x="0.017316" y="0.08" />
+                            <point x="0.952381" y="0.22" />
+                            <point x="0.987013" y="0.5" />
+                            <point x="0.95671" y="0.8" />
+                            <point x="0.04329" y="0.8" />
+                            <point x="0.0779221" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -616,7 +653,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441208900078643" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Star.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501044" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Star.png">
                         <collision-poly>
                             <point x="0.213867" y="0.213867" />
                             <point x="0.5" y="0.0878906" />
@@ -744,8 +781,101 @@
                 <behavior-type name="Solid" sid="770086295779688">
                     <behavior id="solid" />
                 </behavior-type>
+                <behavior-type name="Physics" sid="240769653962917">
+                    <behavior id="Physics" />
+                </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_ShipSkin_Straight.png" />
+        </object-type>
+        <object-type name="T_Wall_Metal" sid="820964610791053">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\T_Wall_Metal.png" />
+        </object-type>
+        <object-type name="Sprite6" sid="492010211626854">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689004576449075" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Tank" sid="907267102417301">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991714621640907" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50065" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Tank.png">
+                        <collision-poly>
+                            <point x="0.08" y="0.0415584" />
+                            <point x="0.5" y="0" />
+                            <point x="0.92" y="0.0415584" />
+                            <point x="0.995" y="0.5" />
+                            <point x="0.915" y="0.955844" />
+                            <point x="0.5" y="0.919481" />
+                            <point x="0.0925" y="0.951948" />
+                            <point x="0.01" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Elevator_Basement" sid="828978664058485">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183910929580270" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Elevator_Basement.png">
+                        <collision-poly>
+                            <point x="0.00928074" y="0.111111" />
+                            <point x="0.5" y="0.0138889" />
+                            <point x="0.981439" y="0.222222" />
+                            <point x="0.99652" y="0.958333" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00348028" y="0.958333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="924718581429197">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Elevator_Rail.png" />
+        </object-type>
+        <object-type name="EO_Elevator" sid="907275490475489">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="961542177734830">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="261044039433803">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826230275241102" speed="5">
+                    <frame duration="1" hotspotX="0.496583" hotspotY="0.924198" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Elevator.png">
+                        <collision-poly>
+                            <point x="0" y="0.688046" />
+                            <point x="1" y="0.682215" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Elevator_Controller" sid="454057024438077">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339211861269684" speed="5">
+                    <frame duration="1" hotspotX="0.503333" hotspotY="0.5" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Elevator_Controller.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.886957" />
+                            <point x="0" y="0.886957" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
