@@ -10,12 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level_1</layout>
-        <layout order="1">MainMenu</layout>
-        <layout order="3">Pause</layout>
-        <layout active="1" order="5">Level_2</layout>
-        <event-sheet order="2">MainMenu_Events</event-sheet>
-        <event-sheet order="4">Event sheet 1</event-sheet>
+        <layout order="1">Level_1</layout>
+        <layout order="0">MainMenu</layout>
+        <layout active="1" order="2">Level_2</layout>
+        <event-sheet order="4">MainMenu_Events</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -67,5 +66,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/EO_Elevator_Basement/" />
         <folder expanded="1" path="animation-folder/EO_Elevator/" />
         <folder expanded="1" path="animation-folder/EO_Elevator_Controller/" />
+        <folder expanded="1" path="animation-folder/EO_Box_/" />
+        <folder expanded="1" path="animation-folder/EO_Box_2/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/HUD_Helth/" />
     </folders-expanded>
 </c2uistate>

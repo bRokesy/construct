@@ -21,7 +21,7 @@
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -110,12 +110,6 @@
                 </behavior-type>
                 <behavior-type name="ScrollTo" sid="771478634336899">
                     <behavior id="scrollto" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="898580725524080">
-                    <behavior id="Physics" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="382736051962391">
-                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -342,9 +336,6 @@
             <behaviors>
                 <behavior-type name="Solid" sid="129179381306071">
                     <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="118271921514116">
-                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -583,6 +574,11 @@
         </object-type>
         <object-type name="Button_Exit" sid="778990954463722">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="940796331223386">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Exit_Def" pingpong="0" repeatcount="0" repeatto="0" sid="771731121606921" speed="5">
                     <frame duration="1" hotspotX="0.504505" hotspotY="0.513514" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Exit.png" />
@@ -623,6 +619,11 @@
         </object-type>
         <object-type name="Button_Settings" sid="647774897592869">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="339318279176791">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Settings_Def" pingpong="0" repeatcount="1" repeatto="0" sid="974669867872294" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Settings.png" />
@@ -670,6 +671,11 @@
         </object-type>
         <object-type name="Logo_Text" sid="157550773457662">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="738122025233595">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432187039517176" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Logo_Text.png">
@@ -718,7 +724,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589530611370690" speed="5">
-                    <frame duration="1" hotspotX="0.525" hotspotY="0.962848" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character_Menu.png">
+                    <frame duration="1" hotspotX="0.524943" hotspotY="0.96307" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Character_Menu.png">
                         <collision-poly>
                             <point x="0.166389" y="0.154799" />
                             <point x="0.499168" y="0.00309598" />
@@ -748,6 +754,11 @@
         </object-type>
         <object-type name="Button_Continue" sid="380416263804392">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="463297891074046">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Continue_Def" pingpong="0" repeatcount="1" repeatto="0" sid="710627945018555" speed="5">
                     <frame duration="1" hotspotX="0.502183" hotspotY="0.513514" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\Button_Continue.png" />
@@ -780,9 +791,6 @@
             <behaviors>
                 <behavior-type name="Solid" sid="770086295779688">
                     <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="240769653962917">
-                    <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_ShipSkin_Straight.png" />
@@ -877,13 +885,89 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="EO_Box_" sid="899494716533043">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="384401596294516">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563410677232337" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Box_01.png">
+                        <collision-poly>
+                            <point x="0.00641026" y="0.0144404" />
+                            <point x="0.991987" y="0.0180505" />
+                            <point x="0.990385" y="0.978339" />
+                            <point x="0.5" y="0.99278" />
+                            <point x="0.0112179" y="0.974729" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EO_Box_2" sid="976005760130756">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="670906012497120">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="371706435498917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\EO_Box_02.png">
+                        <collision-poly>
+                            <point x="0.00641026" y="0.0144404" />
+                            <point x="0.991987" y="0.0180505" />
+                            <point x="0.990385" y="0.978339" />
+                            <point x="0.5" y="0.99278" />
+                            <point x="0.0112179" y="0.974729" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="907287319313909">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="501785975266521">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167575380050439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HUD_Helth" sid="805404026164814">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="250076554462350">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995055306988267" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502347" original-source="C:\Users\Seven\OneDrive\Рабочий стол\Supernova\HUD_Helth.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.00501253" />
+                            <point x="0.998016" y="0.498747" />
+                            <point x="0.982143" y="0.977444" />
+                            <point x="0.5" y="0.997494" />
+                            <point x="0.0178571" y="0.977444" />
+                            <point x="0.00396825" y="0.498747" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainMenu.xml</layout>
         <layout>Level_1.xml</layout>
         <layout>Level_2.xml</layout>
-        <layout>Pause.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
