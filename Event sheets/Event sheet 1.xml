@@ -233,5 +233,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="726592328606844">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="964135337852266" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="579309509530309" type="Character">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="774555127070350" type="Character">
+                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

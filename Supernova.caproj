@@ -303,6 +303,68 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="5" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="936297792159696" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Jump\Pictures\3.png">
+                        <collision-poly>
+                            <point x="0.36" y="0.315" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.69" y="0.27125" />
+                            <point x="0.667143" y="0.5" />
+                            <point x="0.602857" y="0.6525" />
+                            <point x="0.5" y="0.9725" />
+                            <point x="0.351429" y="0.6925" />
+                            <point x="0.42" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Jump\Pictures\4.png">
+                        <collision-poly>
+                            <point x="0.38" y="0.3325" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.677143" y="0.2825" />
+                            <point x="0.687143" y="0.5" />
+                            <point x="0.621429" y="0.66875" />
+                            <point x="0.5" y="0.92625" />
+                            <point x="0.322857" y="0.7175" />
+                            <point x="0.364286" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Jump\Pictures\5.png">
+                        <collision-poly>
+                            <point x="0.362857" y="0.3175" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.664286" y="0.29375" />
+                            <point x="0.64" y="0.5" />
+                            <point x="0.582857" y="0.635" />
+                            <point x="0.5" y="0.9225" />
+                            <point x="0.351429" y="0.6925" />
+                            <point x="0.422857" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Jump\Pictures\6.png">
+                        <collision-poly>
+                            <point x="0.354286" y="0.31" />
+                            <point x="0.5" y="0.0325" />
+                            <point x="0.67" y="0.28875" />
+                            <point x="0.66" y="0.5" />
+                            <point x="0.678571" y="0.71875" />
+                            <point x="0.5" y="0.83125" />
+                            <point x="0.382857" y="0.665" />
+                            <point x="0.415714" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Мой диск\Магистратура\КГ\Animations\Jump\Pictures\7.png">
+                        <collision-poly>
+                            <point x="0.342857" y="0.3" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.654286" y="0.3025" />
+                            <point x="0.658571" y="0.5" />
+                            <point x="0.607143" y="0.65625" />
+                            <point x="0.5" y="0.91375" />
+                            <point x="0.314286" y="0.725" />
+                            <point x="0.345714" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Sprite" sid="632803854658777">
