@@ -211,6 +211,35 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="468014961870383">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="544071476156618" type="Mouse">
+                    <param id="0" name="Object">Button_Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="932948028789765" type="Button_Settings">
+                    <param id="0" name="Animation">&quot;Settings_Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="366448140977099">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="961171594471157" type="Mouse">
+                    <param id="0" name="Object">Button_Settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="125512310924661" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="4" name="Set animation" sid="700176278104324" type="Button_Settings">
+                    <param id="0" name="Animation">&quot;Settings_Def&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="372661542905610">
             <conditions>
                 <condition id="6" name="On object clicked" sid="887882461090998" type="Mouse">
